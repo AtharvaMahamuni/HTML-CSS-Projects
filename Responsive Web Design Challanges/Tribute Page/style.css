@@ -1,19 +1,31 @@
 h1 {
-    color: #242B2E;
-    background-color: beige;
+    color: #FFFFF2;
+    background-color: #1B98F5;
     padding: 10px;
     margin-top: 0px;
     margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;
+    font-family: 'Lucida Sans';
+}
+h1:hover{
+    color: #1B98F5;
+    background-color:  #FFFFF2;
 }
 
 img {
-    max-width: 100%;
-    align-self: center;
+    max-width: 70%;
     height: auto; 
-    margin-right: auto;   
-    margin-left: auto;   
+    align-items: center;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h4{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0px;
+   text-align: center;
 }
