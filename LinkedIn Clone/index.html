@@ -26,7 +26,12 @@
 
         <div class="header_search">
           <i class="material-icons"> search </i>
-          <input type="text" name="search" id="search_box" />
+          <input
+            type="text"
+            name="search"
+            id="search_box"
+            placeholder="Search"
+          />
         </div>
       </div>
       <div class="header_right">
@@ -120,8 +125,42 @@
       </div>
 
       <!-- sidebar ends -->
-    </div>
 
+      <!-- Feed starts -->
+
+      <div class="feed">
+        <div class="feed_inputContainer">
+          <div class="feed_input">
+            <i class="material-icons"> create </i>
+            <form>
+              <input type="text" name="feed" id="feed" />
+            </form>
+          </div>
+
+          <div class="inputOptions">
+            <div class="inputOption">
+              <i class="material-icons" style="color: #12b0e8">image</i>
+              <h4>Photo</h4>
+            </div>
+            <div class="inputOption">
+              <i class="material-icons" style="color: #a77b06">video_library</i>
+              <h4>Video</h4>
+            </div>
+            <div class="inputOption">
+              <i class="material-icons" style="color: #758283">event_note</i>
+              <h4>Event</h4>
+            </div>
+            <div class="inputOption">
+              <i class="material-icons" style="color: #1faa59"
+                >calendar_view_day</i
+              >
+              <h4>Write Article</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Feed ends -->
+    </div>
     <!-- Main body ends -->
   </body>
 </html>

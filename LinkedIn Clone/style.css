@@ -86,7 +86,8 @@ body{
     display: flex;
     margin-top: 35px;
     max-width: 1200px;
-    margin: 0 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
@@ -98,7 +99,7 @@ body{
     border-radius: 10px;
     text-align: center;
     height: fit-content;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .sidebar_top_img {
@@ -203,4 +204,63 @@ body{
 
 .sidebar_hash{
     margin: 0 10px;
+}
+
+/* Feed section */
+.feed{
+    flex: 0.6;
+    margin: 0 20px;
+}
+
+.feed_inputContainer{
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.feed_input{
+    display: flex;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    padding: 10px;
+    color: gray;
+    padding-left: 15px;
+}
+
+.feed_input form{
+    display: flex;
+    width: 100%;
+}
+
+.feed_input form input{
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 600;
+}
+
+.inputOptions{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inputOption{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    color: gray;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.inputOption:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.inputOption h4{
+    margin-left: 5px;
 }
