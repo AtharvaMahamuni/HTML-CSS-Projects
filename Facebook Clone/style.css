@@ -98,6 +98,17 @@
     align-items: center;
 }
 
-.header_info {
+.header_info h4{
     margin-left: 10px;
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+}
+
+.header_right .material-icons{
+    color: gray;
+    margin: 0 10px;
+    cursor: pointer;
 }
