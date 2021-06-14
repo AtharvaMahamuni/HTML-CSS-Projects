@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.header_start img{
+    height: 25px;
+    margin-left: 10px;
+}
+
+.header_start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_middle {
+    display: flex;
+    background-color: #f1f1f1;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 50%;
+}
+
+.header_end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_option{
+    color: gray;
+    border-radius: 50%;
+    padding: 5px 7px;
+}
+
+.header_option:hover{
+    color: black;
+    background-color: lightgray;
+}
+
+.header_middle input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.header_middle .drop_down_search{
+    margin-left: 500px;
+}
+
+.compose_button{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    color: gray;
+    border: 1px solid lightgray;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 50px;
+    box-shadow:0px 2px 5px -2px rgb(0 0 0 / 75%);
+}
+
+.compose_button .material-icons{
+    margin-right: 5px;
+    color: gray;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.compose_button h3{
+    font-size: large;
+}
+
+.compose_button:hover{
+    background-color: #f1f1f1;
+    transform: translateY(-2px);
+    box-shadow: 2px 2px 2px 1px rgba(168, 168, 168, 0.75);
+    color: black;
+}
+
+.sidebar_options{
+    /* border: 1px solid black; */
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    width: 25%;
+}
+
+.body_left{
+    /* border: 1px solid blue; */
+    /* width: fit-content; */
+    margin-left: 20px;
+    flex: 0.33;
+}
+
+.sidebar_option{
+    /* border: 1px solid red; */
+    display: flex;
+    /* margin: 10px; */
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+}
+.sidebar_option:hover{
+    background-color: #ffd7d7;
+    color: #D82E2F;
+}
+
+.sidebar_option .material_icons{
+    margin-right: 5px;
+}
+
+.sidebar_option h3{
+    margin-left: 20px;
+    font-size:medium;
+
+}
+
+
+.body_right{
+    flex: 1;
+}
