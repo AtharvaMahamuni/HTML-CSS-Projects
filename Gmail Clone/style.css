@@ -16,6 +16,7 @@ body{
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid lightgray;
+    position: sticky;
 }
 
 .header_start img{
@@ -53,7 +54,7 @@ body{
 
 .header_option:hover{
     color: black;
-    background-color: lightgray;
+    background-color: whitesmoke;
 }
 
 .header_middle input{
@@ -94,7 +95,7 @@ body{
 }
 
 .compose_button:hover{
-    background-color: #f1f1f1;
+    background-color: whitesmoke;
     transform: translateY(-2px);
     box-shadow: 2px 2px 2px 1px rgba(168, 168, 168, 0.75);
     color: black;
@@ -102,11 +103,35 @@ body{
 
 .sidebar_options{
     /* border: 1px solid black; */
-    width: fit-content;
+    width: 100%;
     display: flex;
     flex-direction: column;
     color: gray;
-    width: 25%;
+    /* width: 25%; */
+}
+
+.sidebar_options .active{
+    background-color: #ffd7d7;
+    color: #D82E2F;
+}
+
+.meet_options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    color: gray;
+}
+
+.meet_options .siderbar_option{
+    margin: 0 20px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.meet_options .siderbar_option:hover{
+    background-color: whitesmoke;
+    color: black;
 }
 
 .body_left{
@@ -114,6 +139,8 @@ body{
     /* width: fit-content; */
     margin-left: 20px;
     flex: 0.33;
+    position: sticky;
+    /* border-right: .5px solid lightgray; */
 }
 
 .sidebar_option{
@@ -142,4 +169,123 @@ body{
 
 .body_right{
     flex: 1;
+}
+
+.gmail_body{
+    display: flex;
+}
+
+.body_right_header{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    color: gray;
+}
+
+.body_right_header .left_side{
+    display: flex;
+    align-items: center;
+}
+
+.body_right_header .right_side{
+    display: flex;
+    align-items: center;
+}
+
+
+.body_header_option{
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.body_header_option:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.inbox_options{
+    /* border: 1px solid green; */
+    display: flex;
+    color: gray;
+    margin: 0px 10px;
+    /* padding: 5px 0; */
+    
+}
+
+.inbox_option{
+    /* border: 1px solid red; */
+    display: flex;
+    height: 100%;
+    padding: 15px 40px;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    width: 15%;
+}
+
+.inbox_options .active{
+    background-color: whitesmoke;
+    color: #D82E2F;
+    border-bottom: 3px solid #D82E2F;
+}
+
+.inbox_option:hover{
+    background-color: whitesmoke;
+    color: #D82E2F;
+}
+
+.inbox_option h4{
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.mails{
+    display: flex;
+    flex-direction: column;
+}
+
+.mail{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+
+.mail:hover{
+    box-shadow: 0 5px 2px -2px rgba(0,0,0,0.25);
+}
+
+.mail_left{
+    display: flex;
+    align-items: center;
+    color: gray;
+    font-size: small;
+}
+
+.mail_center{
+    display: flex;
+    align-items: center;
+    font-size: small;
+}
+
+.mail_right{
+    display: flex;
+    align-items: center;
+    font-size: small;
+}
+
+.mail_option{
+    margin: 0 5px;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.mail_option:hover{
+    background-color: whitesmoke;
+    color: black;
 }
