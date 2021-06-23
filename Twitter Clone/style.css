@@ -5,27 +5,49 @@
 }
 
 body{
+    display: flex;
     margin: 0;
     padding: 0;
 }
 
+/* ============================= */
+.left_body{
+    /* border: 1px solid blue; */
+    width: fit-content;
+    flex: .2;
+}
+
+.middle_body{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    flex: .7;
+}
+
+.right_body{
+    display: flex;
+    flex: .2;
+}
+
+/* =========================================== */
+
+
+/* ====== Left body =========== */
 .left_body img{
     height: 50px;
     margin-top: 50px;
     margin-left: 50px;
 }
 
-.left_body{
-    /* border: 1px solid blue; */
-    width: fit-content;
-}
-
 .left_body .left_options{
     /* border: 1px solid red; */
-    display: felx;
+    display: flex;
     flex-direction: column;
     margin-top: 10px;
     margin-left: 20px;
+    /* align-items: center; */
+    justify-content: flex-start;
+    width: fit-content;
 }
 
 .left_options .option{
@@ -33,12 +55,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 20px 40px;
+    padding: 12px 10px;
     border-radius: 99px;
+    margin-left: 30px;
 }
 
 .left_options .option:hover{
-    background-color: rgb(233, 233, 233);
+    background-color: #e2f2ff;
     color: #1B98F5
 }
 
@@ -52,4 +75,113 @@ body{
 
 .left_options .material-icons{
     font-size: xx-large;
+}
+
+.tweet_button button{
+    background: #1B98F5;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    border: none;
+    padding: 15px 80px;
+    align-self: center;
+    border-radius: 99px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.tweet_button button:hover{
+    background: #0486eb;
+}
+
+
+/* =====Middle body======= */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    padding: 10px 0;
+}
+
+.header h2{
+    margin-left: 20px;
+}
+
+.header .material-icons{
+    margin-right: 20px;
+    color: #0486eb;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.header .material-icons:hover{
+    background-color: #e2f2ff;
+}
+
+.make_tweet{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-top: none;
+}
+
+.make_tweet .whats_happenning{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    margin: 10px;
+}
+
+.make_tweet .whats_happenning img{
+    height: 60px;
+    border-radius: 50%;
+}
+
+.make_tweet .whats_happenning input{
+    font-size: 20px;
+    border: none;
+    outline-width: 0;
+    background: transparent;
+    margin-left: 10px;
+}
+
+.make_tweet_b{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.make_tweet .options{
+    display: flex;
+    margin-left: 50px;
+}
+
+.make_tweet_b button{
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 99px;
+    border: none;
+    background:#5eb3f3;
+    color: white;
+    font-weight: 600;
+}
+
+.make_tweet_b button:hover{
+    background:#35a7ff;
+}
+
+.make_tweet .option{
+    color: #5eb3f3;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.make_tweet .option .material-icons{
+    font-size: 25px;
+}
+
+.make_tweet .option:hover{
+    background: #dff1ff;
 }
