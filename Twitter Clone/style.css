@@ -12,6 +12,7 @@ body{
 
 /* ============================= */
 .left_body{
+    position: sticky;
     /* border: 1px solid blue; */
     width: fit-content;
     flex: .2;
@@ -22,6 +23,8 @@ body{
     display: flex;
     flex-direction: column;
     flex: .7;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .right_body{
@@ -172,7 +175,7 @@ body{
 }
 
 .make_tweet .option{
-    color: #5eb3f3;
+    color: #199cff;
     margin: 10px 0;
     padding: 5px;
     border-radius: 50%;
@@ -184,4 +187,75 @@ body{
 
 .make_tweet .option:hover{
     background: #dff1ff;
+}
+
+/* =======Tweet_feed========= */
+
+.tweet .tweet_info img{
+    height: 60px;
+    border-radius: 50%;
+}
+
+.tweet{
+    /* border: 1px solid red; */
+    width: fit-content;
+    height: fit-content;
+    margin-top: 10px;
+    border: 1px solid lightgray;
+}
+
+.tweet .tweet_info{
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 0 0;
+    align-items: center;
+    justify-content: flex start;
+}
+
+.tweet .tweet_info img{
+    margin: 10px 10px
+}
+
+.tweet .tweet_info h4{
+    margin: 0px;
+    font-size: 20px;
+}   
+
+.tweet .tweet_info h6{
+    margin: 10px;
+    color: gray;
+    font-size: 18px;
+}
+
+.tweet p{
+    margin: 0 30px;
+    font-size: 16px;
+}
+
+.tweet .tweet_image{
+    /* border: 1px solid blue; */
+    justify-content: center;
+    text-align: center;
+}
+.tweet .tweet_image img{
+    width: 80%;
+    margin: 10px 0;
+    border-radius: 15px;
+}
+
+.tweet .tweet_options{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(92, 92, 92);
+}
+
+.tweet .tweet_options .option{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tweet .tweet_options .option h4{
+    margin-left: 5px;
 }
