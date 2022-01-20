@@ -1,0 +1,22 @@
+body {
+    background: #d5d5d5;
+    height: 10vh;
+    font-family: sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    height: 100%;
+}
+
+.flex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.image-top {
+    position: absolute;
+}

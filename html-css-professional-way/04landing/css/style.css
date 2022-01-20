@@ -68,3 +68,39 @@ footer {
 footer p {
     padding: 30px;
 }
+
+@media screen and (max-width: 800px) {
+    body {
+        background: orange;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background: crimson;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background: lightcoral;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 7px;
+    }
+}
