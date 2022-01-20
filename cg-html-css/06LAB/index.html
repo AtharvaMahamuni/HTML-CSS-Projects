@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <table border="2" bgcolor="lightblue">
+      <tr>
+        <th>Name</th>
+        <td><input type="text" name="name" id="Name" /></td>
+      </tr>
+      <tr>
+        <th>Employee Code</th>
+        <td><input type="number" name="code" id="code" /></td>
+      </tr>
+      <tr>
+        <th>Department</th>
+        <td>
+          <input type="radio" name="dept" id="dept" /> Admin
+          <br />
+          <input type="radio" name="dept" id="dept" /> HR
+          <br />
+          <input type="radio" name="dept" id="dept" /> Technical
+          <br />
+          <input type="radio" name="dept" id="dept" /> Accounts
+        </td>
+      </tr>
+      <tr>
+        <th>Date of Joining</th>
+        <td>
+          <select name="dd" id="dd">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+          <select name="mm" id="mm">
+            <option value="1">01</option>
+            <option value="2">02</option>
+            <option value="3">03</option>
+          </select>
+          <select name="yy" id="yy">
+            <option value="1">2001</option>
+            <option value="2">2002</option>
+            <option value="3">2003</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <th>Address</th>
+        <td>
+          <textarea name="add" id="add" cols="30" rows="10"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <th>Training Program attended</th>
+        <td>
+          <input type="checkbox" name="tp" id="tp" /> HTML/DHTML
+          <br />
+          <input type="checkbox" name="tp" id="tp" /> Java
+          <br />
+          <input type="checkbox" name="tp" id="tp" /> Client/Server
+          <br />
+          <input type="checkbox" name="tp" id="tp" /> .NET
+        </td>
+      </tr>
+      <tr>
+        <th>Training Program need to attend</th>
+        <td>
+          <select name="tpa" id="tpa">
+            <option value="js">JavaScript</option>
+            <option value="py">Python</option>
+            <option value="java">Java</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <th>Send the information at</th>
+        <td>
+          <a href="mailto:empinfo@capgemini.com">empinfo@capgemini.com</a>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

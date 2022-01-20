@@ -57,3 +57,14 @@ button {
 .lco:hover {
     box-shadow: 0 0 40px 40px #1f1f1f inset;
 }
+
+footer {
+    background-color: #1f1f1f;
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+}
+
+footer p {
+    padding: 30px;
+}
