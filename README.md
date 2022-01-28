@@ -9,3 +9,6 @@ Gmail Clone [Demo](https://atharvamahamuni.github.io/HTML-CSS-Projects/Gmail%20C
 LinkedIn Clone [Demo](https://atharvamahamuni.github.io/HTML-CSS-Projects/LinkedIn%20Clone/index.html)
 
 Twitter Clone [Demo](https://atharvamahamuni.github.io/HTML-CSS-Projects/Twitter%20Clone/index.html)
+
+ </br></br>
+ [embed]https://github.com/AtharvaMahamuni/HTML-CSS-Projects/blob/master/html-css-for-modern-web.pdf[/embed] 
