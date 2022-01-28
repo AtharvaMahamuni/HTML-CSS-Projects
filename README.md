@@ -11,4 +11,4 @@ LinkedIn Clone [Demo](https://atharvamahamuni.github.io/HTML-CSS-Projects/Linked
 Twitter Clone [Demo](https://atharvamahamuni.github.io/HTML-CSS-Projects/Twitter%20Clone/index.html)
 
  </br></br>
- [embed]https://github.com/AtharvaMahamuni/HTML-CSS-Projects/blob/master/html-css-for-modern-web.pdf[/embed] 
+![image](https://github.com/AtharvaMahamuni/HTML-CSS-Projects/blob/master/certificate.png)
